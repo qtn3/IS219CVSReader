@@ -13,6 +13,12 @@ test('Calculator Add 2 by  2 to equal 4', () => {
     expect(calc.Result).toBe(5);
 
 });
+test('Calculator Subtract 6 by  2 to equal 12', () => {
+    let calc = new Calculator();
+    expect(calc.Difference(6, 2)).toBe(12);
+    expect(calc.Result).toBe(12);
+
+});
 test('Calculator Multiply 2 by  2 has a result equal to 4', () => {
     let Calc = new Calculator();
     expect(Calc.Multiply(2, 2)).toBe(4);
